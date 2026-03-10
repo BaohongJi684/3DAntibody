@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+
+<script src="../layout/scripts/initContact.js" defer></script>
+
+<html lang="">
+
+<head>
+  <title>Lalapeden | Pages | Sidebar Right</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <link href="../layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+</head>
+
+<body id="top" onload="initContactFunction()">
+  <!-- ################################################################################################ -->
+  <div class="wrapper row1">
+    <header id="header" class="hoc clear">
+      <div id="logo" class="fl_left">
+        <h1 style="font-family:'Sans-Serif'"><a href="../index.html">3D Antibody</a></h1>
+      </div>
+      <nav id="mainav" class="fl_right">
+        <ul class="clear">
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="services.html">Services</a>
+          </li>
+          <li class="active"><a href="ContactUs.html">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+  </div>
+  <!-- ################################################################################################ -->
+  <div class="wrapper row3">
+    <main class="hoc container clear">
+
+
+      <div>
+
+
+        <div class="sdb_holder">
+          <h4 style="color:#337ab7">Address</h4>
+          <address style="font-size:13px;font-family: 'Times New Roman'">
+            3D Antibody<br>
+            20400 Century Blvd, suite 100<br>
+            Germantown, MD, 20874<br>
+            ctian@3dantibody.com<br>
+          </address>
+
+        </div>
+        <div id="comments">
+          <h4 style="color:#337ab7">Request for a Quote</h4>
+
+          <p style="font-size:16px;font-family: 'Times New Roman'">Please contact us at ctian@3dantibody.com or complete
+            the form below to request a quote and we will reply you within 24 hours. </p>
+          </br>
+          <form action="https://formspree.io/f/xpqyqwow" class="fs-form fs-layout__2-column" target="_top"
+            method="POST">
+
+            <div class="row">
+              <div class="col-md-6">
+                <div class="fs-field">
+                  <label class="fs-label" for="request-type">Type of Service<span style="color: red">*</span></label>
+
+                  <select class="fs-select" id="request-type" name="request-type" required>
+                    <option value="Sequencing">Hybridoma Antibody Sequencing</option>
+                    <option value="Humanization">Antibody Humanization</option>
+                  </select>
+                </div>
+
+              </div>
+
+              <div class="col-md-6" style="margin-left: auto; margin-right: auto;">
+                <div class="fs-field">
+                  <label class="fs-label" for="name">Name<span style="color: red">*</span></label>
+                  <input class="fs-input" id="name" name="name" required />
+                </div>
+
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-6">
+                <div class="fs-field">
+                  <label class="fs-label" for="email">Email<span style="color: red">*</span></label>
+                  <input class="fs-input" id="email" name="email" required />
+                </div>
+
+              </div>
+
+              <div class="col-md-6" style="margin-left: auto; margin-right: auto;">
+
+                <div class="fs-field">
+                  <label class="fs-label" for="company">Company<span style="color: red">*</span></label>
+                  <input class="fs-input" id="company" name="company" required />
+                </div>
+
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-6">
+                <div class="fs-field">
+                  <label class="fs-label" for="country">Country<span style="color: red">*</span></label>
+                  <input class="fs-input" id="country" name="country" required />
+                </div>
+
+              </div>
+
+              <div class="col-md-6" style="margin-left: auto; margin-right: auto;">
+
+                <div class="fs-field">
+                  <label class="fs-label" for="phone-number">Phone Number</label>
+                  <input class="fs-input" id="phone-number" name="phone-number" />
+                </div>
+
+              </div>
+            </div>
+
+
+
+
+            <div class="fs-field col-span-full">
+              <label class="fs-label" for="message">Additional Information</label>
+              <textarea class="fs-textarea" id="message" name="message"></textarea>
+            </div>
+
+            <div class="fs-button-group">
+              <button class="fs-button" type="submit">Submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="clear"></div>
+    </main>
+  </div>
+
+  </div>
+  <!-- ################################################################################################ -->
+  <div class="">
+    <div id="foot">&copy; 2018 3D Antibody Holding. All Rights Reserved
+      <div class="address">
+        <div class="adr">
+          <span class="street-address">20400 Century Blvd, suite 100</span> &middot;
+          <span class="locality">Germantown</span>, <abbr title="MD" class="region">MD</abbr> <span
+            class="postal-code">20874;&middot;</span>
+          <span class="tel">Phone: <span class="value">***-***8888</span><abbr class="type" title="WORK"></abbr><abbr
+              class="type" title="VOICE"></abbr></span> &middot;
+          <span class="tel"><span class="type">Fax</span>: <span class="value">301-448-2920</span></span>
+
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+  <!-- JAVASCRIPTS -->
+  <script src="../layout/scripts/jquery.min.js"></script>
+  <script src="../layout/scripts/jquery.backtotop.js"></script>
+  <script src="../layout/scripts/jquery.mobilemenu.js"></script>
+</body>
+
+</html>

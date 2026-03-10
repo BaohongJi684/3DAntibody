@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+
+<script src="layout/scripts/initContact.js" defer></script>
+
+<html lang="">
+
+<head>
+  <title>Lalapeden | Pages | Full Width</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <link href="layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+</head>
+
+<body id="top" onload="initMainFunction()">
+  <!-- ################################################################################################ -->
+  <div class="wrapper row1">
+    <header id="header" class="hoc clear">
+      <!-- ################################################################################################ -->
+      <div id="logo" class="fl_left">
+        <h1 style="font-family:'Sans-Serif'"><a href="index.html">3D Antibody</a></h1>
+      </div>
+      <nav id="mainav" class="fl_right">
+        <ul class="clear">
+          <li class="active"><a href="index.html">Home</a></li>
+
+
+          <li><a href="pages/services.html">Services</a>
+
+          </li>
+          <li><a href="pages/ContactUs.html">Contact US</a></li>
+        </ul>
+      </nav>
+      <!-- ################################################################################################ -->
+    </header>
+  </div>
+  <!-- ################################################################################################ -->
+  <div class="wrapper row3">
+    <main class="hoc container clear">
+      <div class="content">
+
+        <p class="fontNoShade" style="padding-left:2px;">3D Antibody provide the advanced antibody engineering services.
+          Founded in 2018, 3D Antibody specializes in hybridoma antibody sequencing and humanization techniques. </p>
+
+
+
+        <div class="row" style="margin-top:20px">
+          <div class="col-md-7">
+            <p class="fontNoShade" style="padding-left:2px;">Over the past eight years, 3D Antibody successfully
+              completed over one thousand hybridoma sequencing projects with a <em>100% success rate</em> and <em>high
+                accuracy</em>. Our optimized workflow allows us to deliver results within one week—or as quickly as
+              <em>2-3 days</em> for urgent requests—at the <em>most competitive prices</em> in the market. Please click
+              the picture to see more details.
+            </p>
+          </div>
+          <div class="col-md-5" style="margin-left: auto; margin-right: auto;">
+            <a href="/3DANTIBODY/pages/antibody-sequencing.html" title="Hybridoma antibody Sequencing service">
+              <div id="register" class="press" style="text-align: center;margin: 0 auto;">
+                <img style="border:1px solid #CCD2D2;" alt="Hybridoma antibody Sequencing service"
+                  src="images/demo/gallery/DNA_sequence.jpg" width="80" height="50" />
+                <h5 style="text-align:center; line-height:20px; font-family: 'gotham'; color:#011db9;">Hybridoma
+                  antibody Sequencing service</h5>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <div class="row" style="margin-top:20px">
+          <div class="col-md-7">
+            <p class="fontNoShade" style="padding-left:2px;">In addition to sequencing, out scientis bring over 20 years
+              of experience in antibody structure and have completed more than 20 humanization projects. All of our
+              humanized antibodies have <em>maintained or exceeded</em> the affinity of the parent antibody. Notably, we
+              have also successfully rescued failed humanization projects for major pharmaceutical companies. Please
+              click the picture to see more details.</p>
+            </p>
+          </div>
+
+          <div class="col-md-5" style="margin-left: auto; margin-right: auto;">
+            <a href="/3DANTIBODY/pages/humanization.html" title="Antibody Humanization Service">
+              <div id="register" class="press" style="text-align: center;margin: 0 auto;">
+                <img style="border:1px solid #CCD2D2;" alt="Antibody Humanization service"
+                  src="images/demo/gallery/Humanization_VH.png" width="60" height="50" />
+                <h5 style="text-align:center; line-height:20px;font-family: 'gotham'; color:#011db9;">
+                  Antibody Humanization service</h5>
+              </div>
+            </a>
+
+          </div>
+        </div>
+
+
+
+
+        <p class="fontNoShade" style="padding-left:2px;margin-top:20px">If you are interested in learning more about how
+          our services can support your research, please contact us at <b>ctian@3dantibody.com</b> or complete the <a
+            href="pages/ContactUs.html"><b>form</b></a> to request a quote.</p>
+
+      </div>
+
+
+      <div class="clear"></div>
+
+
+    </main>
+  </div>
+  <!-- ################################################################################################ -->
+  <div class="">
+    <div id="foot">&copy; 2018 3D Antibody Holding. All Rights Reserved
+      <div class="address">
+        <div class="adr">
+          <span class="street-address">20400 Century Blvd, suite 100</span> &middot;
+          <span class="locality">Germantown</span>, <abbr title="MD" class="region">MD</abbr> <span
+            class="postal-code">20874;&middot;</span>
+
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+  <!-- JAVASCRIPTS -->
+  <script>
+    window.onload = function () {
+      /* Element */
+      var carousel = document.getElementById('carousel'),
+        /* Carousel current image */
+        cimage = 2,
+        /* Carousel source images */
+        csources = [
+          'images/demo/gallery/DNA_sequence.jpg',
+          'images/demo/gallery/Humanization_VH.png',
+          'images/demo/gallery/AntibodyMaturation_online.png'
+
+        ];
+
+      function changeCarouselImage() {
+
+        if (cimage >= 3) cimage = 0;
+
+        carousel.src = csources[cimage];
+        cimage = cimage + 1;
+
+        setTimeout(changeCarouselImage, 4000);
+      }
+
+      //setTimeout(changeCarouselImage, 4000);
+    };
+  </script>
+
+  <script src="layout/scripts/jquery.min.js"></script>
+  <script src="layout/scripts/jquery.backtotop.js"></script>
+  <script src="layout/scripts/jquery.mobilemenu.js"></script>
+</body>
+
+</html>
