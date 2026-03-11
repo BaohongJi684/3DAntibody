@@ -972,6 +972,9 @@ em {
   font-size:16px;
   font-family: 'Times New Roman'
 }
+tr{
+  background-color: white;
+}
 /*#comments textarea {
     border-color: #177fe6;
 }*/
