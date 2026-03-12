@@ -975,9 +975,13 @@ em {
 tr{
   background-color: white;
 }
-/*#comments textarea {
-    border-color: #177fe6;
-}*/
 
-/*#comments textarea{border-color: #f3103a !important; }
-#comments input:focus, #comments textarea:focus, #comments *:required:focus{border-color:#8c2b8a !important;}*/
+.row {
+    /*display: flex;*/              /* Enable flexbox */
+
+    align-items: center;        /* Vertically center items */
+
+    border: 0px solid #ccc;     /* Just for visualization */
+    padding: 10px;
+}
+
