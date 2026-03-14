@@ -632,6 +632,7 @@ fieldset {
   row-gap: 0.375rem;
   margin-left: 10px;
   margin-right: 10px;
+   margin-top: 20px;
 }
 
 .fs-label {
