@@ -950,6 +950,10 @@ em {
 
   font-size:16px;
   font-family: 'Times New Roman';
+  
+    margin-bottom: 8px;
+    margin-top: 8px;
+
 }
 .fs-input{
   font-size:16px;
@@ -978,8 +982,9 @@ em {
   font-family: 'Times New Roman'
 }
 #comments div {
-    margin-bottom: 5px;
+    margin-bottom: 15px;
 }
+
 tr{
   background-color: white;
 }
