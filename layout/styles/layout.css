@@ -983,7 +983,7 @@ em {
   font-family: 'Times New Roman'
 }
 #comments div {
-    margin-bottom: 15px;
+    margin-bottom: 5px;
 }
 
 tr{
@@ -996,7 +996,7 @@ tr{
     align-items: center;        /* Vertically center items */
 
     border: 0px solid #ccc;     /* Just for visualization */
-    /*padding: 10px;*/
+    padding: 10px;
 }
 
 .row.contact_row {
