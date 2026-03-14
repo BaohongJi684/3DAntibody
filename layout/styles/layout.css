@@ -996,6 +996,19 @@ tr{
     align-items: center;        /* Vertically center items */
 
     border: 0px solid #ccc;     /* Just for visualization */
-    padding: 10px;
+    /*padding: 10px;*/
+}
+
+.row.contact_row {
+  margin-top:0px;
+  margin-bottom:0px;
+  padding-top:0px;
+  padding-bottom:0px;
+}
+.col-md-6.contact_col{
+  margin-top:0px;
+  margin-bottom:0px;
+  padding-top:0px;
+  padding-bottom:0px;
 }
 
